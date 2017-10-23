@@ -20,6 +20,7 @@ Route::group(['prefix'=>'/','namespace'=>'Home'],function(){
 	Route::get('','HomeController@index');
 });
 
+
 // 后台路由群组
 Route::group(['prefix'=>'admin','namespace'=>'Admin'],function(){
 	//后台登录页
